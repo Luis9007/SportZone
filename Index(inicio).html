@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SportZone - Tienda Deportiva</title>
+
+  <!-- Bootstrap y Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- CSS externo -->
+  <link rel="stylesheet" href="style(inicio).css">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="top-navbar">
+    <div class="container">
+      <div class="d-flex align-items-center justify-content-between">
+        <div class="navbar-brand">
+          <img src="assets/img/Logo principal.png" alt="Logo SportZone"> SportZone
+        </div>
+        <ul class="nav-menu d-none d-lg-flex">
+          <li><a href="Index(inicio).html">Home</a></li>
+          <li><a href="#tienda">Tienda</a></li>
+          <li><a href="#categorias">Categorías</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+        <div class="search-container d-none d-md-block">
+          <input type="text" class="search-input" placeholder="Buscar productos...">
+          <button class="search-btn"><i class="fas fa-search"></i></button>
+        </div>
+        <div class="nav-icons">
+          <a href="#"><i class="far fa-heart"></i></a>
+          <a href="#"><i class="far fa-user"></i></a>
+          <a href="index(carrito).html"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-section" id="home">
+    <div class="container">
+      <div class="hero-content">
+        <h1>HASTA UN 50% EN EL MEJOR<br>EQUIPO DEPORTIVO</h1>
+        <p>Descubre nuestra colección premium de productos deportivos. Encuentra todo lo que necesitas para alcanzar tus metas deportivas al mejor precio del mercado.</p>
+        <button class="btn-yellow">Comprar ahora</button>
+        <button class="btn-outline-white">Ver más información</button>
+      </div>
+    </div>
+  </section>
+
+<!-- Features Section -->
+<section class="features-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-6">
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h6>Envío rápido</h6>
+                    <p>En 24-48 horas a todo el país</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h6>Pago seguro</h6>
+                    <p>Múltiples métodos de pago seguros</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-gift"></i>
+                    </div>
+                    <h6>Garantía total</h6>
+                    <p>2 años en todos los productos</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h6>Soporte 24/7</h6>
+                    <p>Atención personalizada siempre</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Categorías -->
+<section class="categories-section" id="categorias">
+<div class="container">
+    <div class="section-header">
+    <h2>Explora por Categoría</h2>
+    <p>Encuentra el equipamiento perfecto para tu deporte favorito de nuestra amplia variedad</p>
+    </div>
+
+    <div class="category-grid">
+    <div class="category-card">
+        <div class="category-image" style="background-image: url('assets/img/categories/running.jpg');">
+        <div class="category-name">Running</div>
+        </div>
+    </div>
+    <div class="category-card">
+        <div class="category-image" style="background-image: url('assets/img/categories/mancuernas.jpg');">
+        <div class="category-name">Mancuernas</div>
+        </div>
+    </div>
+    <div class="category-card">
+        <div class="category-image" style="background-image: url('assets/img/categories/Bicicletas.jpg');">
+        <div class="category-name">Bicicletas</div>
+        </div>
+    </div>
+    <div class="category-card">
+        <div class="category-image" style="background-image: url('assets/img/categories/Fútbol.webp');">
+        <div class="category-name">Fútbol</div>
+        </div>
+    </div>
+    <div class="category-card">
+        <div class="category-image" style="background-image: url('assets/img/categories/Yoga\ &\ Fitness.jpg');">
+        <div class="category-name">Yoga & Fitness</div>
+        </div>
+    </div>
+    <div class="category-card">
+        <div class="category-image" style="background-image: url('assets/img/categories/tenis.webp');">
+        <div class="category-name">Tenis</div>
+        </div>
+    </div>
+    <div class="category-card">
+        <div class="category-image" style="background-image: url('assets/img/categories/Basketball.jpg');">
+        <div class="category-name">Basketball</div>
+        </div>
+    </div>
+    <div class="category-card">
+        <div class="category-image" style="background-image: url('assets/img/categories/Swimming.jpg');">
+        <div class="category-name">Swimming</div>
+        </div>
+    </div>
+    </div>
+</div>
+</section>
+
+<!-- Products Section -->
+<section class="products-section" id="tienda">
+<div class="container">
+    <div class="products-header">
+        <h2>Productos Destacados</h2>
+        <a href="#" class="view-all">Ver Todo <i class="fas fa-arrow-right"></i></a>
+    </div>
+    <p style="text-align: center; color: #666; margin-bottom: 50px;">Los artículos más vendidos de la semana</p>
+    
+    <div class="products-grid">
+
+        <!-- Producto 1 -->
+    <div class="product-card">
+        <span class="product-badge badge-new">Nuevo</span>
+        <div class="wishlist-icon"><i class="far fa-heart"></i></div>
+        <div class="product-image">
+            <img src="assets/img/featured products/Balón Fútbol.jpg" alt="Balón Fútbol Profesional Golty">
+        </div>
+        <div class="product-info">
+            <div class="product-category">Deportes</div>
+            <div class="product-title">Balón Fútbol Profesional Golty</div>
+            <div class="product-rating">
+                <div class="stars">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <span class="rating-count">(123)</span>
+            </div>
+            <div class="product-price">
+                <span class="current-price">$180.00</span>
+            </div>
+            <button class="btn-buy">Comprar Ahora</button>
+        </div>
+    </div>
+
+        <!-- Producto 2 -->
+    <div class="product-card">
+        <div class="wishlist-icon"><i class="far fa-heart"></i></div>
+        <div class="product-image">
+            <img src="assets/img/featured products/Set Yoga Profesional.jpg" alt="Set Yoga Professional">
+        </div>
+        <div class="product-info">
+            <div class="product-category">Yoga</div>
+            <div class="product-title">Set Yoga Professional</div>
+            <div class="product-rating">
+                <div class="stars">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <span class="rating-count">(356)</span>
+            </div>
+            <div class="product-price">
+                <span class="current-price">$89.99</span>
+            </div>
+            <button class="btn-buy">Comprar Ahora</button>
+        </div>
+    </div>
+
+        <!-- Producto 3 -->
+    <div class="product-card">
+        <span class="product-badge badge-new">Nuevo</span>
+        <div class="wishlist-icon"><i class="far fa-heart"></i></div>
+        <div class="product-image">
+            <img src="assets/img/featured products/Gafas Natación.jpg" alt="Gafas Natación">
+        </div>
+        <div class="product-info">
+            <div class="product-category">Natación</div>
+            <div class="product-title">Gafas Natación</div>
+            <div class="product-rating">
+                <div class="stars">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <span class="rating-count">(245)</span>
+            </div>
+            <div class="product-price">
+                <span class="current-price">$210.00</span>
+            </div>
+            <button class="btn-buy">Comprar Ahora</button>
+        </div>
+    </div>
+
+        <!-- Producto 4 -->
+    <div class="product-card">
+        <div class="wishlist-icon"><i class="far fa-heart"></i></div>
+        <div class="product-image">
+            <img src="assets/img/featured products/Raqueta Wilson.png" alt="Raqueta marca Wilson Blade">
+        </div>
+        <div class="product-info">
+            <div class="product-category">Fitness</div>
+            <div class="product-title">Raqueta marca Wilson Blade</div>
+            <div class="product-rating">
+                <div class="stars">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span class="rating-count">(432)</span>
+            </div>
+            <div class="product-price">
+                <span class="current-price">$165.00</span>
+                <span class="original-price">$200.00</span>
+            </div>
+            <button class="btn-buy">Comprar Ahora</button>
+        </div>
+    </div>
+
+        <!-- Producto 5 -->
+    <div class="product-card">
+        <span class="product-badge badge-new">Nuevo</span>
+        <div class="wishlist-icon"><i class="far fa-heart"></i></div>
+        <div class="product-image">
+            <img src="assets/img/featured products/Tenis Nike.png" alt="Tenis Nike">
+        </div>
+        <div class="product-info">
+            <div class="product-category">Deportes</div>
+            <div class="product-title">Tenis Nike</div>
+            <div class="product-rating">
+                <div class="stars">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <span class="rating-count">(198)</span>
+            </div>
+            <div class="product-price">
+                <span class="current-price">$75.00</span>
+            </div>
+            <button class="btn-buy">Comprar Ahora</button>
+        </div>
+    </div>
+
+        <!-- Producto 6 -->
+    <div class="product-card">
+        <div class="wishlist-icon"><i class="far fa-heart"></i></div>
+        <div class="product-image">
+            <img src="assets/img/featured products/Zapatillas Jordan.jpg" alt="Zapatillas Jordan">
+        </div>
+        <div class="product-info">
+            <div class="product-category">Running</div>
+            <div class="product-title">Zapatillas Jordan</div>
+            <div class="product-rating">
+                <div class="stars">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <span class="rating-count">(287)</span>
+            </div>
+            <div class="product-price">
+                <span class="current-price">$45.00</span>
+            </div>
+            <button class="btn-buy">Comprar Ahora</button>
+        </div>
+    </div>
+
+        <!-- Producto 7 -->
+    <div class="product-card">
+        <span class="product-badge badge-sale">-20%</span>
+        <div class="wishlist-icon"><i class="far fa-heart"></i></div>
+        <div class="product-image">
+            <img src="assets/img/featured products/Kit Mancuernas.webp" alt="Kit Mancuernas 450g">
+        </div>
+        <div class="product-info">
+            <div class="product-category">Gimnasio</div>
+            <div class="product-title">Kit Mancuernas 450g</div>
+            <div class="product-rating">
+                <div class="stars">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <span class="rating-count">(567)</span>
+            </div>
+            <div class="product-price">
+                <span class="current-price">$110.00</span>
+            </div>
+            <button class="btn-buy">Comprar Ahora</button>
+        </div>
+    </div>
+
+        <!-- Producto 8 -->
+    <div class="product-card">
+        <span class="product-badge badge-sale">-15%</span>
+        <div class="wishlist-icon"><i class="far fa-heart"></i></div>
+        <div class="product-image">
+            <img src="assets/img/featured products/Bicicleta Jaguar GW.webp" alt="Bicicleta Jaguar GW">
+        </div>
+        <div class="product-info">
+            <div class="product-category">Ciclismo</div>
+            <div class="product-title">Bicicleta Jaguar GW</div>
+            <div class="product-rating">
+                <div class="stars">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <span class="rating-count">(892)</span>
+            </div>
+            <div class="product-price">
+                <span class="current-price">$1,200.00</span>
+                <span class="original-price">$1,400.00</span>
+            </div>
+            <button class="btn-buy">Comprar Ahora</button>
+        </div>
+    </div>
+    </div>
+</div>
+</section>
+
+<!-- Newsletter Section -->
+<section class="newsletter-section">
+    <div class="container">
+        <h3>¡Recibe nuestro newsletter!</h3>
+        <p>Regístrate ahora y obtén 15% de descuento en tu primera compra</p>
+        <form class="newsletter-form">
+            <input type="email" class="newsletter-input" placeholder="Tu correo electrónico" required>
+            <button type="submit" class="btn-subscribe">Registrarme ahora</button>
+        </form>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer id="contacto">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h5><img src="assets/img/Logo principal.png" alt="Logo SportZone"> SportZone</h5>
+                <p style="color: #999; font-size: 14px;">Tu tienda de confianza para equipamiento deportivo de alta calidad.</p>
+                <div class="social-icons">
+                    <div class="social-icon"><i class="fab fa-facebook-f"></i></div>
+                    <div class="social-icon"><i class="fab fa-twitter"></i></div>
+                    <div class="social-icon"><i class="fab fa-instagram"></i></div>
+                    <div class="social-icon"><i class="fab fa-youtube"></i></div>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h5>Enlaces Rápidos</h5>
+                <ul class="footer-links">
+                    <li><a href="#">Sobre nosotros</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Tienda</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h5>Atención al Cliente</h5>
+                <ul class="footer-links">
+                    <li><a href="#">Preguntas frecuentes</a></li>
+                    <li><a href="#">Envíos y devoluciones</a></li>
+                    <li><a href="#">Política de privacidad</a></li>
+                    <li><a href="#">Términos y condiciones</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h5>Contacto</h5>
+                <ul class="footer-links">
+                    <li style="color: #999;"><i class="fas fa-map-marker-alt"></i> Calle Principal 123</li>
+                    <li style="color: #999;"><i class="fas fa-phone"></i> +57 300 123 4567</li>
+                    <li style="color: #999;"><i class="fas fa-envelope"></i> info@SportZone.com</li>
+                    <li style="color: #999;"><i class="fas fa-clock"></i> Lun - Sáb: 9:00 - 18:00</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 SportZone. Todos los derechos reservados. Hecho con <i class="fas fa-heart" style="color: #F44336;"></i> por Nosotros</p>
+        </div>
+    </div>
+</footer>
+
+  <!-- JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+  <script src="script(inicio).js"></script>
+</body>
+</html>

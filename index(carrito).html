@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SportZone | Carrito de Compras</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+      <!-- CSS externo -->
+  <link rel="stylesheet" href="style(carrito).css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="top-navbar">
+        <div class="container">
+            <div class="d-flex align-items-center justify-content-between">
+                <div class="navbar-brand">
+                    <img src="assets/img/Logo principal.png" alt="Logo SportZone"> SportZone
+                </div>
+                <ul class="nav-menu d-none d-lg-flex">
+                    <li><a href="Index(inicio).html">Home</a></li>
+                    <li><a href="#tienda">Tienda</a></li>
+                    <li><a href="#categorias">Categorías</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+                <div class="search-container d-none d-md-block">
+                    <input type="text" class="search-input" placeholder="Buscar productos...">
+                    <button class="search-btn"><i class="fas fa-search"></i></button>
+                </div>
+                <div class="nav-icons">
+                  <a href="#"><i class="far fa-heart"></i></a>
+                  <a href="#"><i class="far fa-user"></i></a>
+                  <a href="index(carrito).html"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+<!-- MAIN -->
+<main>
+  <div class="container">
+    <h3 class="fw-bold mb-4">Mi Carrito</h3>
+    <div class="row g-4">
+
+      <!-- LISTA DE PRODUCTOS -->
+      <div class="col-lg-8">
+
+        <!-- Producto 1 -->
+        <div class="cart-item">
+          <img src="assets/img/products shopping/Conjunto.jpg" alt="Conjunto Deportivo Under Armour">
+          <div class="item-info">
+            <h6>Conjunto Deportivo Under Armour</h6>
+            <div class="sizes mb-2">Tallas:
+              <span>S</span><span>M</span><span>L</span><span>XL</span>
+            </div>
+            <div class="stock"><i class="fas fa-circle me-1"></i> En stock</div>
+          </div>
+          <div class="quantity-control">
+            <button>-</button>
+            <input type="text" value="1">
+            <button>+</button>
+            <i class="fas fa-trash delete-item"></i>
+          </div>
+          <p class="item-price mb-0">$269.900</p>
+        </div>
+
+        <!-- Producto 2 -->
+        <div class="cart-item">
+          <img src="assets/img/products shopping/Tenis.webp" alt="Tenis HOVR Phantom 3">
+          <div class="item-info">
+            <h6>Tenis HOVR Phantom 3</h6>
+            <div class="sizes mb-2">Tallas:
+              <span>38</span><span>40</span><span>42</span><span>44</span>
+            </div>
+            <div class="stock"><i class="fas fa-circle me-1"></i> En stock</div>
+          </div>
+          <div class="quantity-control">
+            <button>-</button>
+            <input type="text" value="1">
+            <button>+</button>
+            <i class="fas fa-trash delete-item"></i>
+          </div>
+          <p class="item-price mb-0">$339.900</p>
+        </div>
+
+        <!-- Producto 3 -->
+        <div class="cart-item">
+          <img src="assets/img/products shopping/Bañador.jpg" alt="Bañador Arena Mujer">
+          <div class="item-info">
+            <h6>Bañador Arena Mujer</h6>
+            <div class="sizes mb-2">Tallas:
+              <span>S</span><span>M</span><span>L</span><span>XL</span>
+            </div>
+            <div class="stock"><i class="fas fa-circle me-1"></i> En stock</div>
+          </div>
+          <div class="quantity-control">
+            <button>-</button>
+            <input type="text" value="1">
+            <button>+</button>
+            <i class="fas fa-trash delete-item"></i>
+          </div>
+          <p class="item-price mb-0">$69.900</p>
+        </div>
+
+      </div>
+
+      <!-- RESUMEN DEL PEDIDO -->
+      <div class="col-lg-4">
+        <div class="order-summary">
+          <h5>Resumen del Pedido</h5>
+          <p><span>Subtotal</span><span>$679.700</span></p>
+          <p><span>Envío</span><span class="text-success">Gratis</span></p>
+          <hr>
+          <p class="total"><span>Total</span><span>$679.700</span></p>
+          <button class="btn-pay">Proceder al Pago</button>
+          <button class="btn-continue">Continuar Comprando</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</main>
+
+<!-- Footer -->
+<footer id="contacto">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h5><img src="assets/img/Logo principal.png" alt="Logo SportZone"> SportZone</h5>
+                <p style="color: #999; font-size: 14px;">Tu tienda de confianza para equipamiento deportivo de alta calidad.</p>
+                <div class="social-icons">
+                    <div class="social-icon"><i class="fab fa-facebook-f"></i></div>
+                    <div class="social-icon"><i class="fab fa-twitter"></i></div>
+                    <div class="social-icon"><i class="fab fa-instagram"></i></div>
+                    <div class="social-icon"><i class="fab fa-youtube"></i></div>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h5>Enlaces Rápidos</h5>
+                <ul class="footer-links">
+                    <li><a href="#">Sobre nosotros</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Tienda</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h5>Atención al Cliente</h5>
+                <ul class="footer-links">
+                    <li><a href="#">Preguntas frecuentes</a></li>
+                    <li><a href="#">Envíos y devoluciones</a></li>
+                    <li><a href="#">Política de privacidad</a></li>
+                    <li><a href="#">Términos y condiciones</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h5>Contacto</h5>
+                <ul class="footer-links">
+                    <li style="color: #999;"><i class="fas fa-map-marker-alt"></i> Calle Principal 123</li>
+                    <li style="color: #999;"><i class="fas fa-phone"></i> +57 300 123 4567</li>
+                    <li style="color: #999;"><i class="fas fa-envelope"></i> info@SportZone.com</li>
+                    <li style="color: #999;"><i class="fas fa-clock"></i> Lun - Sáb: 9:00 - 18:00</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 SportZone. Todos los derechos reservados. Hecho con <i class="fas fa-heart" style="color: #F44336;"></i> por Nosotros</p>
+        </div>
+    </div>
+</footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+  <script src="script(carrito).js"></script>
+</body>
+</html>
