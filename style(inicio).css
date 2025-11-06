@@ -88,8 +88,8 @@
             align-items: center;
             justify-content: flex-start;
             color: #fff;
-            background: linear-gradient();
-            background-size: 100% auto;
+            background-image: url(assets/img/grupo-de-atletas-diversos-sentados-juntos.jpg);
+            background-size: cover;
             background-position: center center;
             background-repeat: no-repeat;
             background-attachment: fixed; /* 🎯 Parallax simple */
